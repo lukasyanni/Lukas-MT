@@ -1,0 +1,36 @@
+Converting GML script: ${project_dir}\scripts\string_get_longest\string_get_longest.gml
+Converted description /// @description string_get_longest(list);/// @param list
+
+Converting GML script: ${project_dir}\scripts\menu_create\menu_create.gml
+Converted description /// @description menu_create(index, x, y, w, h)/// @param index
+/// @param  x
+/// @param  y
+/// @param  w
+/// @param  h
+
+Converting GML script: ${project_dir}\scripts\menu_draw_box\menu_draw_box.gml
+Converted description /// @description menu_draw_box(x, y, w, h, alpha)/// @param x
+/// @param  y
+/// @param  w
+/// @param  h
+/// @param  alpha
+
+Converting GML script: ${project_dir}\objects\o_mainmenu\Other_10.gml
+Converted description /// @description Example of nested menus.
+
+Converting GML script: ${project_dir}\objects\o_newgame\Other_10.gml
+Converted description /// @description Exit on any option
+
+Converting GML script: ${project_dir}\objects\o_loadgame\Other_10.gml
+Converted description /// @description Exit on any option.
+
+Converting GML script: ${project_dir}\objects\o_loadgame\Draw_64.gml
+Converted description /// @description Example of extra stuff drawn alongside the menu
+
+Converting GML script: ${project_dir}\objects\o_settings\Step_0.gml
+Converted description /// @description Example of self-modifying menu strings
+
+Converting GML script: ${project_dir}\objects\o_settings\Other_10.gml
+Converted description /// @description Switch BGM and SFX values, exit on exit option.
+
+Updated compatibility script '__global_object_depths.gml'

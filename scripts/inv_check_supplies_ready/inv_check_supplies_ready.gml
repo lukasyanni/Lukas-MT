@@ -1,0 +1,1 @@
+return global.Physical > 0 and global.Electrical > 0 and global.Computerized > 0 and global.Medical > 0;

@@ -1,0 +1,252 @@
+Converting GML script: ${project_dir}\scripts\edgeds_init_scale\edgeds_init_scale.gml
+Converted builtin - line 19: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 20: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted description /// @description edgeds_init_scale(view);/// @param view
+
+Converting GML script: ${project_dir}\scripts\edgeds_set_scale\edgeds_set_scale.gml
+Converted builtin - line 89: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 87: view_wview[global.display_view] = (display_width*dpi)/global.display_zoom -> __view_set( e__VW.WView, global.display_view, (display_width*dpi)/global.display_zoom )
+Converted builtin - line 90: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 88: view_hview[global.display_view] = (display_height*dpi)/global.display_zoom -> __view_set( e__VW.HView, global.display_view, (display_height*dpi)/global.display_zoom )
+Converted builtin - line 114: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 114: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted description /// @description edgeds_set_scale(dpi mode, dpi override, minwidth, minheight, zoom);/// @param dpi mode
+/// @param  dpi override
+/// @param  minwidth
+/// @param  minheight
+/// @param  zoom
+Converted builtin - line 94: view_wport[global.display_view] = __view_get( e__VW.WView, global.display_view -> __view_set( e__VW.WPort, global.display_view, __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 95: view_hport[global.display_view] = __view_get( e__VW.HView, global.display_view -> __view_set( e__VW.HPort, global.display_view, __view_get( e__VW.HView, global.display_view )
+
+Converting GML script: ${project_dir}\scripts\edgeds_set_width\edgeds_set_width.gml
+Converted builtin - line 89: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 87: view_wview[global.display_view] = (argument2*dpi)/global.display_zoom -> __view_set( e__VW.WView, global.display_view, (argument2*dpi)/global.display_zoom )
+Converted builtin - line 90: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 88: view_hview[global.display_view] = (display_height*dpi)/global.display_zoom -> __view_set( e__VW.HView, global.display_view, (display_height*dpi)/global.display_zoom )
+Converted builtin - line 114: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 114: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted description /// @description edgeds_set_width(dpi mode, dpi override, width, minheight, zoom);/// @param dpi mode
+/// @param  dpi override
+/// @param  width
+/// @param  minheight
+/// @param  zoom
+Converted builtin - line 94: view_wport[global.display_view] = __view_get( e__VW.WView, global.display_view -> __view_set( e__VW.WPort, global.display_view, __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 95: view_hport[global.display_view] = __view_get( e__VW.HView, global.display_view -> __view_set( e__VW.HPort, global.display_view, __view_get( e__VW.HView, global.display_view )
+
+Converting GML script: ${project_dir}\scripts\edgeds_set_height\edgeds_set_height.gml
+Converted builtin - line 89: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 87: view_wview[global.display_view] = (display_width*dpi)/global.display_zoom -> __view_set( e__VW.WView, global.display_view, (display_width*dpi)/global.display_zoom )
+Converted builtin - line 90: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 88: view_hview[global.display_view] = (argument3*dpi)/global.display_zoom -> __view_set( e__VW.HView, global.display_view, (argument3*dpi)/global.display_zoom )
+Converted builtin - line 114: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 114: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted description /// @description edgeds_set_height(dpi mode, dpi override, minwidth, height, zoom);/// @param dpi mode
+/// @param  dpi override
+/// @param  minwidth
+/// @param  height
+/// @param  zoom
+Converted builtin - line 94: view_wport[global.display_view] = __view_get( e__VW.WView, global.display_view -> __view_set( e__VW.WPort, global.display_view, __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 95: view_hport[global.display_view] = __view_get( e__VW.HView, global.display_view -> __view_set( e__VW.HPort, global.display_view, __view_get( e__VW.HView, global.display_view )
+
+Converting GML script: ${project_dir}\scripts\edgeds_set_screenres\edgeds_set_screenres.gml
+Converted builtin - line 90: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 88: view_wview[global.display_view] = (argument2*dpi)/global.display_zoom -> __view_set( e__VW.WView, global.display_view, (argument2*dpi)/global.display_zoom )
+Converted builtin - line 91: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 89: view_hview[global.display_view] = (argument3*dpi)/global.display_zoom -> __view_set( e__VW.HView, global.display_view, (argument3*dpi)/global.display_zoom )
+Converted builtin - line 115: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 115: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted description /// @description edgeds_set_screenres(dpi mode, dpi override, width, height, zoom);/// @param dpi mode
+/// @param  dpi override
+/// @param  width
+/// @param  height
+/// @param  zoom
+Converted builtin - line 95: view_wport[global.display_view] = __view_get( e__VW.WView, global.display_view -> __view_set( e__VW.WPort, global.display_view, __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 96: view_hport[global.display_view] = __view_get( e__VW.HView, global.display_view -> __view_set( e__VW.HPort, global.display_view, __view_get( e__VW.HView, global.display_view )
+
+Converting GML script: ${project_dir}\scripts\edgeds_draw_background\edgeds_draw_background.gml
+Converted builtin - line 38: background_visible[argument3] = true -> __background_set( e__BG.Visible, argument3, true )
+Converted builtin - line 35: background_foreground[argument3] = argument4 -> __background_set( e__BG.Foreground, argument3, argument4 )
+Converted builtin - line 33: background_index[argument3] -> __background_get( e__BG.Index, argument3 )
+Converted builtin - line 34: background_index[argument3] = argument0 -> __background_set( e__BG.Index, argument3, argument0 )
+Converted builtin - line 47: background_x[argument3] = argument1 -> __background_set( e__BG.X, argument3, argument1 )
+Converted builtin - line 48: background_y[argument3] = argument2 -> __background_set( e__BG.Y, argument3, argument2 )
+Converted builtin - line 56: background_width[argument3] -> __background_get( e__BG.Width, argument3 )
+Converted builtin - line 63: background_height[argument3] -> __background_get( e__BG.Height, argument3 )
+Converted builtin - line 64: background_height[argument3] -> __background_get( e__BG.Height, argument3 )
+Converted builtin - line 72: background_height[argument3] -> __background_get( e__BG.Height, argument3 )
+Converted builtin - line 36: background_htiled[argument3] = argument5 -> __background_set( e__BG.HTiled, argument3, argument5 )
+Converted builtin - line 37: background_vtiled[argument3] = argument5 -> __background_set( e__BG.VTiled, argument3, argument5 )
+Converted builtin - line 56: background_xscale[argument3] -> __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 57: background_xscale[argument3] -> __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 64: background_xscale[argument3] -> __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 72: background_xscale[argument3] -> __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 80: background_xscale[argument3] -> __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 92: background_xscale[argument3] -> __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 65: background_xscale[argument3] = background_yscale[argument3] -> __background_set( e__BG.XScale, argument3, background_yscale[argument3] )
+Converted builtin - line 73: background_xscale[argument3] = background_yscale[argument3] -> __background_set( e__BG.XScale, argument3, background_yscale[argument3] )
+Converted builtin - line 79: background_xscale[argument3] = clamp(display_width/(((argument1 - view_xview[global.display_view])*0.5) + background_get_width(argument0)), 0, 1 -> __background_set( e__BG.XScale, argument3, clamp(display_width/(((argument1 - view_xview[global.display_view])*0.5) + background_get_width(argument0)), 0, 1 )
+Converted builtin - line 85: background_xscale[argument3] = background_yscale[argument3] -> __background_set( e__BG.XScale, argument3, background_yscale[argument3] )
+Converted builtin - line 91: background_xscale[argument3] = (global.display_xscale + global.display_yscale)*0.5 -> __background_set( e__BG.XScale, argument3, (global.display_xscale + global.display_yscale)*0.5 )
+Converted builtin - line 56: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 63: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 64: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 72: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 84: background_yscale[argument3] = clamp(display_height/(((argument2 - view_yview[global.display_view])*0.5) + background_get_height(argument0)), 0, 1 -> __background_set( e__BG.YScale, argument3, clamp(display_height/(((argument2 - view_yview[global.display_view])*0.5) + background_get_height(argument0)), 0, 1 )
+Converted builtin - line 25: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 26: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted description /// @description edgeds_draw_background(background, x, y, index, foreground, tile, scale mode);/// @param background
+/// @param  x
+/// @param  y
+/// @param  index
+/// @param  foreground
+/// @param  tile
+/// @param  scale mode
+Converted builtin - line 63: background_xscale[argument3] = __background_get( e__BG.YScale, argument3 )*(display_width/(__background_get( e__BG.Width, argument3 )*__background_get( e__BG.XScale, argument3 ))) -> __background_set( e__BG.XScale, argument3, __background_get( e__BG.YScale, argument3 )*(display_width/(__background_get( e__BG.Width, argument3 )*__background_get( e__BG.XScale, argument3 ))) )
+Converted builtin - line 72: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 80: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 92: background_yscale[argument3] -> __background_get( e__BG.YScale, argument3 )
+Converted builtin - line 64: background_yscale[argument3] = __background_get( e__BG.XScale, argument3 -> __background_set( e__BG.YScale, argument3, __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 71: background_yscale[argument3] = __background_get( e__BG.XScale, argument3 )*(display_height/(__background_get( e__BG.Height, argument3 )*__background_get( e__BG.YScale, argument3 ))) -> __background_set( e__BG.YScale, argument3, __background_get( e__BG.XScale, argument3 )*(display_height/(__background_get( e__BG.Height, argument3 )*__background_get( e__BG.YScale, argument3 ))) )
+Converted builtin - line 79: background_yscale[argument3] = __background_get( e__BG.XScale, argument3 )*(display_height/(__background_get( e__BG.Height, argument3 )*__background_get( e__BG.YScale, argument3 ))) -> __background_set( e__BG.YScale, argument3, __background_get( e__BG.XScale, argument3 )*(display_height/(__background_get( e__BG.Height, argument3 )*__background_get( e__BG.YScale, argument3 ))) )
+Converted builtin - line 87: background_yscale[argument3] = __background_get( e__BG.XScale, argument3 -> __background_set( e__BG.YScale, argument3, __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 99: background_yscale[argument3] = __background_get( e__BG.XScale, argument3 -> __background_set( e__BG.YScale, argument3, __background_get( e__BG.XScale, argument3 )
+Converted builtin - line 86: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 91: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+
+Converting GML script: ${project_dir}\scripts\edgeds_draw_sprite\edgeds_draw_sprite.gml
+Converted builtin - line 70: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 75: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 31: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 32: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted description /// @description edgeds_draw_sprite(sprite, index, x, y, rot, color, alpha, scale mode, notme, xscale, yscale);/// @param sprite
+/// @param  index
+/// @param  x
+/// @param  y
+/// @param  rot
+/// @param  color
+/// @param  alpha
+/// @param  scale mode
+/// @param  notme
+/// @param  xscale
+/// @param  yscale
+
+Converting GML script: ${project_dir}\scripts\edgeds_draw_view\edgeds_draw_view.gml
+Converted builtin - line 88: view_xview[argument0] -> __view_get( e__VW.XView, argument0 )
+Converted builtin - line 88: view_yview[argument0] -> __view_get( e__VW.YView, argument0 )
+Converted builtin - line 26: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 38: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 39: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 52: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 67: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 74: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 88: view_wview[argument0] -> __view_get( e__VW.WView, argument0 )
+Converted builtin - line 27: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 38: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 39: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 56: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 63: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 75: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 88: view_hview[argument0] -> __view_get( e__VW.HView, argument0 )
+Converted builtin - line 30: view_visible[argument0] = false -> __view_set( e__VW.Visible, argument0, false )
+Converted description /// @description edgeds_draw_view(view, x, y, rot, color, alpha, scale mode);/// @param view
+/// @param  x
+/// @param  y
+/// @param  rot
+/// @param  color
+/// @param  alpha
+/// @param  scale mode
+
+Converting GML script: ${project_dir}\scripts\move_link\move_link.gml
+Converted description /// @description move_link(child, pos link, scale link);/// @param child
+/// @param  pos link
+/// @param  scale link
+
+Font Arial has been converted to font family Arial (Bold) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\obj_banner\Step_0.gml
+Converted builtin - line 2: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 3: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 2: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 3: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+
+Converting GML script: ${project_dir}\objects\obj_start\Step_0.gml
+Converted builtin - line 2: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 10: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 72: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 78: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 84: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 90: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 96: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 3: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 10: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 72: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 78: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 84: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 90: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 96: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 2: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 10: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 72: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 78: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 84: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 90: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 96: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 3: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 10: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 72: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 78: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 84: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 90: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 96: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+
+Converting GML script: ${project_dir}\objects\obj_help\Step_0.gml
+Converted builtin - line 2: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 3: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 2: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 3: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+
+Converting GML script: ${project_dir}\objects\obj_quit\Step_0.gml
+Converted builtin - line 3: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 7: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 4: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 8: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 3: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 4: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+Converted builtin - line 8: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+
+Converting GML script: ${project_dir}\objects\obj_helpscreen\Step_0.gml
+Converted builtin - line 28: view_xview[global.display_view] -> __view_get( e__VW.XView, global.display_view )
+Converted builtin - line 29: view_yview[global.display_view] -> __view_get( e__VW.YView, global.display_view )
+Converted builtin - line 28: view_wview[global.display_view] -> __view_get( e__VW.WView, global.display_view )
+Converted builtin - line 29: view_hview[global.display_view] -> __view_get( e__VW.HView, global.display_view )
+
+Converting GML script: ${project_dir}\objects\obj_scaler\Draw_64.gml
+Converted builtin - line 20: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 22: view_wport[global.display_view] -> __view_get( e__VW.WPort, global.display_view )
+Converted builtin - line 20: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+Converted builtin - line 22: view_hport[global.display_view] -> __view_get( e__VW.HPort, global.display_view )
+
+Added compatibility script 'action/action_color.gml'
+Added compatibility script 'action/action_create_object.gml'
+Added compatibility script 'action/action_end_game.gml'
+Added compatibility script 'action/action_if_number.gml'
+Added compatibility script 'action/action_if_variable.gml'
+Added compatibility script 'action/action_restart_game.gml'
+Added compatibility script 'action/action_set_relative.gml'
+Added compatibility script 'background/background_get_height.gml'
+Added compatibility script 'background/background_get_width.gml'
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
